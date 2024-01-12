@@ -12,8 +12,93 @@
 
     <limk rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.mim.css"/>
     
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 10;
+            padding: 50px;
+            display: table;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        form {
+            background-color:rgb(190,190,190);
+            padding: 60px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+         
+
+        button {
+            background-color: gray;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color:red;
+        }
+
+        .signInLink {
+            text-align: center;
+            margin-top: 2px;
+        }
+
+        .signInLink a {
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
 </head>
-<body class="signin">
+<body>
+    <form id="signupForm">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+    
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+    
+        <label for="mobileNumber">Mobile Number:</label>
+        <input type="tel" id="mobileNumber" name="mobileNumber" required>
+    
+        <button type="submit">Sign Up</button>
+        
+        <div class="signInLink">
+          <p>Already have an account? <a href="#">Sign in</a></p>
+        </div>
+        
+    </form>
+    
+</body>
+<!--<body class="signin">
     <div class="container">
         <form action="#">
             <div class="login-form">
@@ -61,4 +146,4 @@
             </div>
         </form>
     </div>
-</body>
+</body>-->
