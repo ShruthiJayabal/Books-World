@@ -253,8 +253,8 @@ li a:hover {
     margin-top:15px;
     color:#fff;
     font-size:15px;
-    border-top-bottom-right-radius:5px;
-    border-top-bottom-left-radius:5px;
+    /*border-top-bottom-right-radius:5px;
+    border-top-bottom-left-radius:5px;*/
 
 }
 
@@ -278,6 +278,7 @@ body.signin{
     text-align: center;
     margin: 50px 0;
     color:black;
+    font-size:30px;
 }
 
 .view{
@@ -297,13 +298,19 @@ body.signin{
 }
 
 .sec button{
-    width:60px;
+    width:140px;
     height:30px;
     background: red;
     border: 2px solid red;
-    margin-top:15px;
+    margin-top:50px;
     color:#fff;
     font-size:14px;
+    padding: 0 10px;
+    display:block;
+    margin:auto;
+    margin: 5px;
+    text-align: center;
+    
 }
 
 .products{
@@ -312,10 +319,11 @@ body.signin{
 }
 
 .products .card{
-    width: 310px;
-    height:200px;
-    background-color:gray;
-    box-shadow: 10px 10px lightgray;
+    width: 180px;
+    height:360px;
+    background:#F1F1F1;
+    border-color:#000000;
+    /*box-shadow: 10px 10px lightgray;*/
     border-radius: 5px;
     padding: 15px;
     margin-bottom: 20px;
@@ -327,15 +335,20 @@ body.signin{
 }
 
 .products .card .title{
-    font-weight: 900;
-    font-size:20px;
-    color: #424144;
-    padding: 0 20px;
+    font-size:15px;
+    font-weight: 600;
+    justify-content: space-between;
+    padding: 1px;
 }
 
 .products .card .box{
-    display:flex;
+    display:block;
     justify-content: space-between;
-    padding:20px;
+    padding:0px;
 }
 
+.products .card .box .author{
+    font-size:13px;
+    padding:1px;
+    justify-content: space-between;
+}
