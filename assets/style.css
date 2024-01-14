@@ -121,7 +121,7 @@ section .main .main_img img{
 }
 
 .header .header-1 .from-box input{
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 0 1.2rem;
     color: var(--black);
     width: 100%;
@@ -130,7 +130,7 @@ section .main .main_img img{
 }
 
 .header .header-1 .from-box label{
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--black);
     margin-right: 1.5rem;
     cursor: pointer;
@@ -142,7 +142,7 @@ section .main .main_img img{
 
 .header .header-1 .icons div,
 .header .header-1 .icons a{
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--black);
     cursor: pointer;
     margin-left: 1.5rem;
@@ -259,7 +259,7 @@ li a:hover {
 }
 
 
-body.signin{
+/*body.signin{
     min-height:100vh;
     display:flex;
     align-items:center;
@@ -270,7 +270,7 @@ body.signin{
 .container .signin{
     max-width:850px;
     width:100;
-}
+}*/
 
 
 
@@ -352,3 +352,6 @@ body.signin{
     padding:1px;
     justify-content: space-between;
 }
+
+
+
