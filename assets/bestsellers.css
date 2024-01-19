@@ -12,15 +12,288 @@
     
 }
 
-html{
-    font-family:"Poppins", sans-serif;
+body{
+    background: #eee;
+    overflow-x: hidden; 
 }
 
-body{
-    display: grid;
-    place-items: center;
-    display: block;
-    margin: auto;
-    height: 100vh;
-    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+
+.header .header-1{
+    width:1525px;
+    display:flex;
+    background: #fff;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1.5rem 9%;
 }
+
+
+.header .header-1 .from-box{
+    width: 40rem;
+    height: 3rem;
+    overflow: hidden;
+    background: #fff;
+    border: var(--border);
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.header .header-1 .from-box input{
+    font-size: 1rem;
+    margin-top: 2px;
+    padding: 0 1.1rem;
+    color: var(--black);
+    width: 120%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.header .header-1 .from-box label{
+    font-size: 1.5rem;
+    color: var(--black);
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+
+
+.header .header-1 .from-box label:hover{
+    color: var(--black);
+}
+
+.header .header-1 .icons div,
+.header .header-1 .icons a{
+    font-size: 1.5rem;
+    margin: auto;
+    color: var(--black);
+    cursor: pointer;
+    margin-left: 1.5rem;
+    
+}
+
+#search-btn{
+    display: none;
+}
+
+.header .header-1 .icons div:hover,
+.header .header-1 .icons a:hover{
+    color:darkgrey;
+}
+
+ul {
+    list-style-type: none;
+    width:1525px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+  
+li {
+    float: left;
+  
+
+}
+
+li a {
+    display: block;
+    font-size: medium;
+    color: white;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color:black;
+    display:inline-block;
+    padding: 15px 20px;
+}
+
+
+.login-btn{
+    width:130px;
+    height:50px;
+    background:transparent;
+    border:2px solid #fff;
+    outline:none;
+
+}
+
+
+.btn{
+    width:75px;
+    height:35px;
+    background: red;
+    border: 2px solid red;
+    margin-top:15px;
+    color:#fff;
+    font-size:15px;
+}
+
+.btn:hover{
+    background-color: white;
+    display:inline-block;
+    color: red;
+}
+
+
+.heading{
+    text-align: center;
+    margin: 50px 0;
+    color:black;
+    font-size:30px;
+}
+
+.dropbtn {
+    background-color: lightgray;
+    color: black;
+    border: 2px solid black;
+    padding: 10px;
+    width:90px;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.dropbtn:hover{
+    color:red;
+    background-color: lightgray;
+    border: 2px solid red;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    color:black;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content:hover{
+    color:red;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {background-color: #f1f1f1}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+.dropdown:hover {
+    background-color: white;
+}
+
+.container{
+    min-height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+
+.card{
+    height: 500px;
+    width: 280px;
+    overflow: hidden;
+    position: relative;
+    margin: 10px;
+    margin-left: 5px;
+}
+
+.card img{
+    width:230px;
+    height:350px;
+    object-fit: cover;
+}
+
+.card .info{
+    text-align: center;
+    line-height: 25px;
+}
+
+.card .info h3{
+    color: #333;
+    padding-top: 5px;
+}
+
+.card .info .stars i{
+    color: gold;
+    padding: 10px 0;
+}
+
+.card .info .price{
+    font-size: 20px;
+    color: #f00333;
+    letter-spacing: 1px;
+}
+
+.card .discount{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    height: 50px;
+    width: 50px;
+    display: block;
+    background: rgba(225,0,0,0.6);
+    font-weight: bold;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+}
+
+.card .panel{
+    position: absolute;
+    top: 15px;
+    right: 60px;
+    width: 40px;
+    background: rgba(225,225,225,.8);
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    opacity:0;
+}
+
+.card:hover .panel{
+    right: 60px;
+    opacity:1;
+}
+
+.card .panel a{
+    font-size: 20px;
+    color: #333;
+    margin: 15px 0;
+
+}
+
+
+.card .panel a:hover{
+    color: rgba(225,0,0,0.9);
+
+}
+
+
+.card button{
+    position: absolute;
+    top:300px;
+    left: 50%;
+    padding: 10px;
+    text-align: center;
+    transform: translateX(-80%);}
