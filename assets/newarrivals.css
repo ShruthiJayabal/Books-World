@@ -149,7 +149,7 @@ li a:hover {
 .main .main_img img{
     width:850px;
     position:relative;
-    top:50px;
+    top:35px;
     left:300px;
 }
 
@@ -217,7 +217,6 @@ li a:hover {
     padding: 40px 0;
 }
 
-
 .card{
     height: 400px;
     width: 200px;
@@ -230,9 +229,10 @@ li a:hover {
 
 .card img{
     width: 190px;
-    height:280px;
+    height: 280px;
     object-fit: cover;
 }
+
 .card .info{
     text-align: left;
     line-height: 25px;
@@ -253,7 +253,6 @@ li a:hover {
     color: #f00333;
     letter-spacing: 1px;
 }
-
 
 .card .panel{
     position: absolute;
@@ -307,7 +306,6 @@ li a:hover {
     transition-delay: .2s;
 }
 
-
 .card:hover button{
     opacity:1;
     
@@ -316,6 +314,7 @@ li a:hover {
 .card button:hover{
     background: rgba(225,0,0,0.6);
 }
+
 
 
 
