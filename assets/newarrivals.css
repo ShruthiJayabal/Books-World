@@ -155,7 +155,7 @@ li a:hover {
 
 
 .dropbtn {
-    background-color: lightgray;
+    background-color: #eee;
     color: black;
     border: 2px solid black;
     padding: 10px;
@@ -167,7 +167,7 @@ li a:hover {
 
 .dropbtn:hover{
     color:red;
-    background-color: lightgray;
+    background-color:#eee;
     border: 2px solid red;
 }
   
@@ -209,7 +209,7 @@ li a:hover {
 }
 
 .container{
-    min-height:100vh;
+    min-height:100px;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -218,7 +218,7 @@ li a:hover {
 }
 
 .card{
-    height: 400px;
+    height: 450px;
     width: 200px;
     padding: 20px;
     overflow: hidden;
@@ -354,3 +354,24 @@ li a:hover {
     font-size: 50px;
 }
 
+h1{
+    text-align: center;
+}
+
+
+.view{
+    display: block;
+    margin: auto;
+    width:100px;
+    height:30px;
+    background:#eee;
+    border: 2px solid red;
+    margin-top:15px;
+    color:red;
+    font-size:14px;
+}
+
+.view:hover{
+    background-color: red;
+    color: white;
+}

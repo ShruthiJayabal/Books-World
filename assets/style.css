@@ -209,7 +209,7 @@ li a:hover {
     margin: auto;
     width:100px;
     height:30px;
-    background:lightgray;
+    background:#eee;
     border: 2px solid red;
     margin-top:15px;
     color:red;
@@ -312,7 +312,7 @@ li a:hover {
 /* login form*/
 
 body.index-page {
-    background-color:lightgray;
+    background-color:#eee;
     width:1440px;
 }
 
