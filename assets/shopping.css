@@ -1,0 +1,198 @@
+:root{
+    --orange:#ff6347;
+    --darck-color:#ff4508;
+    --black:black ; 
+    --light-color:black;
+    --border-hover:1rem solid var(--black);
+    --border:0.1rem solid rgba(0,0,0,0.1);
+    --box-shadow: 0 0.5rem 1rem Orgba(0,0,0,0.1);
+
+}
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0; 
+    margin: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    transition: all 0.2s linear;
+    transition: width none;
+    box-sizing: border-box;
+    
+}
+
+
+body {
+    background-color:white;
+    width:1440px;
+}
+
+
+.header .header-1{
+    width:1525px;
+    display:flex;
+    background: #fff;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1.5rem 9%;
+}
+
+
+.header .header-1 .from-box{
+    width: 40rem;
+    height: 3rem;
+    overflow: hidden;
+    background: #fff;
+    border: var(--border);
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.header .header-1 .from-box input{
+    font-size: 1rem;
+    margin-top: 2px;
+    padding: 0 1.1rem;
+    color: var(--black);
+    width: 120%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.header .header-1 .from-box label{
+    font-size: 1.5rem;
+    color: var(--black);
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+
+
+.header .header-1 .from-box label:hover{
+    color: var(--black);
+}
+
+.header .header-1 .icons div,
+.header .header-1 .icons a{
+    font-size: 1.5rem;
+    margin: auto;
+    color: var(--black);
+    cursor: pointer;
+    margin-left: 1.5rem;
+    
+}
+
+#search-btn{
+    display: none;
+}
+
+.header .header-1 .icons div:hover,
+.header .header-1 .icons a:hover{
+    color:darkgrey;
+}
+
+.cart{
+    text-align: center;
+}
+.shop{
+    text-align: center;
+    margin: 50px 0;
+    color:black;
+    font-size:30px;
+}
+
+.empty{
+    font-size:15px;
+    color:black;
+    text-align: center;
+}
+
+.center img{
+   text-align:center;
+}
+
+
+.cart button{
+    display: block;
+    margin: auto;
+    width:125px;
+    height:30px;
+    background:red;
+    border: 2px solid red;
+    margin-top:15px;
+    color:white;
+    font-size:14px;
+}
+
+.cart button:hover{
+    background-color: white;
+    font-weight: bold;
+    color: red;
+
+}
+
+
+
+.bottom{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+}
+
+.bottom .content{
+    width: 565px;
+    height:360px;
+    background:black;
+    border-color:#000000;
+    /*box-shadow: 10px 10px lightgray;*/
+    border-radius: 1px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.bottom .block{
+    width: 320px;
+    height:340px;
+    background:black;
+    border-color:#000000;
+    color: #eee;
+    font-family:'Times New Roman', Times, serif;
+    /*box-shadow: 10px 10px lightgray;*/
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+
+.facebook-icon{
+    font-size: 50px;
+}
+
+
+
+.login-btn{
+    width:130px;
+    height:50px;
+    background:transparent;
+    border:2px solid #fff;
+    outline:none;
+
+}
+
+
+.btn{
+    width:75px;
+    height:35px;
+    background: red;
+    border: 2px solid red;
+    margin-top:15px;
+    color:#fff;
+    font-size:15px;
+}
+
+.btn:hover{
+    background-color: white;
+    display:inline-block;
+    color: red;
+}
