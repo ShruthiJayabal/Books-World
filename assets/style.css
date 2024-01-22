@@ -93,6 +93,7 @@ section .main .main_img img{
     border: var(--border);
     border-radius: 0.5rem;
     display: flex;
+    border-color: #000000;
     align-items: center;
 }
 
