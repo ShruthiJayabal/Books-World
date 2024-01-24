@@ -356,85 +356,6 @@ body {
 
 
 
-/*new arrivals
-
-
-
-.arrivals{
-    display:grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-}
-
-.arrivals .new{
-    width: 225px;
-    height:450px;
-    background:white;
-    border-color:#000000;
-    /*box-shadow: 10px 10px lightgray;
-    border-radius: 5px;
-    padding: 15px;
-    margin-bottom: 20px;
-}
-
-.arrivals .new img{
-    height: 288px;
-    width: 192px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-.box .rating{
-    width:55px;
-    height:20px;
-    background: red;
-    border: 2px solid red;
-    margin-top:5px;
-    color:#fff;
-    font-size:10px;
-    display:inline-block;
-}
-
-.box .rating:hover{
-    background-color: white;
-    display:inline-block;
-    color: red;
-}
-
-
-.rate{
-    padding:10px 4%;
-}
-
-.rate button{
-    width:140px;
-    height:30px;
-    background: white;
-    border: 2px solid red;
-    margin-top:10px;`
-    color:red;
-    font-size:14px;
-    padding: 0 10px;
-    display:block;
-    margin: auto;
-    text-align: center;
-    
-}
-
-.rate button:hover{
-    background-color: red;
-    display:inline-block;
-    color: white;
-
-}
-
-
-.box .offer{
-    color:green;
-    font-size:15px;
-    display: inline-block;
-}*/
 
 /* dropdown menu */
 
@@ -520,3 +441,78 @@ body {
     left:50px;
 }
 
+
+
+@media screen and (max-width: 600px){
+    .header .header-1{
+        width:500px;
+        display:flex;
+        background: #fff;
+        justify-content: space-between;
+        text-align: center;
+        padding: 1.5rem 9%;
+        height: 50px;
+        font-size: 20px;
+        right: 0;
+        top:0;
+    }
+
+    .header .header-1 .from-box{
+        width: 40rem;
+        height: 3rem;
+        overflow: hidden;
+        background: #fff;
+        border: var(--border);
+        border-radius: 0.5rem;
+        display: flex;
+        border-color: #000000;
+        align-items: center;
+        
+    }
+    
+    .header .header-1 .from-box input{
+        font-size: 1rem;
+        margin-top: 2px;
+        padding: 0 1.1rem;
+        color: var(--black);
+        width: 50%;
+        height: 100%;
+        text-decoration: none;
+        
+    
+    .header .header-1 .from-box label{
+        font-size: 1.5rem;
+        color: var(--black);
+        margin-right: 1.5rem;
+        cursor: pointer;
+    }
+    
+    
+    .header .header-1 .from-box label:hover{
+        color: var(--black);
+    }
+    
+    .header .header-1 .icons div,
+    .header .header-1 .icons a{
+        font-size: 1.5rem;
+        margin: auto;
+        color: var(--black);
+        cursor: pointer;
+        margin-left: 1.5rem;
+        height: 50px;
+        font-size: 20px;
+        right: 0;
+        top:0;
+        left: 0;
+        
+    }
+    
+    #search-btn{
+        display: none;
+    }
+    
+    .header .header-1 .icons div:hover,
+    .header .header-1 .icons a:hover{
+        color:darkgrey;
+    }
+}
