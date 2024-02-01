@@ -144,7 +144,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color:black;
 
 }
   
@@ -164,7 +164,7 @@ li a {
 }
   
 li a:hover {
-    background-color:black;
+    background-color:var(--orange);
     display:inline-block;
     padding: 15px 20px;
 }
@@ -207,18 +207,19 @@ li a:hover {
 
 .view{
     display: block;
+    font-weight:550;
     margin: auto;
     width:100px;
     height:30px;
     background:#eee;
-    border: 2px solid red;
+    border: 2px solid black;
     margin-top:15px;
-    color:red;
+    color:black;
     font-size:14px;
 }
 
 .view:hover{
-    background-color: red;
+    background-color:black;
     color: white;
 }
 
@@ -231,9 +232,9 @@ li a:hover {
     width:140px;
     height:30px;
     background: white;
-    border: 2px solid red;
+    border: 2px solid orangered;
     margin-top:50px;
-    color:red;
+    color:orangered;
     font-size:14px;
     padding: 0 10px;
     display:block;
@@ -244,7 +245,7 @@ li a:hover {
 }
 
 .sec button:hover{
-    background-color: red;
+    background-color:orangered;
     display:inline-block;
     color: white;
 
@@ -260,11 +261,13 @@ li a:hover {
     width: 180px;
     height:360px;
     background:white;
-    border-color:#000000;
-    /*box-shadow: 10px 10px lightgray;*/
     border-radius: 5px;
     padding: 15px;
     margin-bottom: 20px;
+}
+
+.products .card:hover{
+    border:1.5px solid black;
 }
 
 
@@ -443,76 +446,3 @@ body {
 
 
 
-@media screen and (max-width: 600px){
-    .header .header-1{
-        width:500px;
-        display:flex;
-        background: #fff;
-        justify-content: space-between;
-        text-align: center;
-        padding: 1.5rem 9%;
-        height: 50px;
-        font-size: 20px;
-        right: 0;
-        top:0;
-    }
-
-    .header .header-1 .from-box{
-        width: 40rem;
-        height: 3rem;
-        overflow: hidden;
-        background: #fff;
-        border: var(--border);
-        border-radius: 0.5rem;
-        display: flex;
-        border-color: #000000;
-        align-items: center;
-        
-    }
-    
-    .header .header-1 .from-box input{
-        font-size: 1rem;
-        margin-top: 2px;
-        padding: 0 1.1rem;
-        color: var(--black);
-        width: 50%;
-        height: 100%;
-        text-decoration: none;
-        
-    
-    .header .header-1 .from-box label{
-        font-size: 1.5rem;
-        color: var(--black);
-        margin-right: 1.5rem;
-        cursor: pointer;
-    }
-    
-    
-    .header .header-1 .from-box label:hover{
-        color: var(--black);
-    }
-    
-    .header .header-1 .icons div,
-    .header .header-1 .icons a{
-        font-size: 1.5rem;
-        margin: auto;
-        color: var(--black);
-        cursor: pointer;
-        margin-left: 1.5rem;
-        height: 50px;
-        font-size: 20px;
-        right: 0;
-        top:0;
-        left: 0;
-        
-    }
-    
-    #search-btn{
-        display: none;
-    }
-    
-    .header .header-1 .icons div:hover,
-    .header .header-1 .icons a:hover{
-        color:darkgrey;
-    }
-}
