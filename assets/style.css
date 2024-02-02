@@ -354,6 +354,11 @@ body {
 }
 
 
+.bottom .block .about{
+    font-size: 12px;
+    line-height: 24px;
+}
+
 .facebook-icon{
     font-size: 50px;
 }
