@@ -3,7 +3,7 @@
 
 :root{
     --orange:#ff6347;
-    --darck-color:#ff4508;
+    --dark-color:#ff4508;
     --black:black ; 
     --light-color:black;
     --border-hover:1rem solid var(--black);
@@ -185,6 +185,7 @@ li a:hover {
     height:35px;
     background: red;
     border: 2px solid red;
+    border-radius: 6px;
     margin-top:15px;
     color:#fff;
     font-size:15px;
@@ -213,6 +214,7 @@ li a:hover {
     height:30px;
     background:#eee;
     border: 2px solid black;
+    border-radius: 6px;
     margin-top:15px;
     color:black;
     font-size:14px;
@@ -231,6 +233,7 @@ li a:hover {
 .sec button{
     width:140px;
     height:30px;
+    border-radius: 7px;
     background: white;
     border: 2px solid orangered;
     margin-top:50px;
@@ -333,7 +336,6 @@ body {
     height:360px;
     background:black;
     border-color:#000000;
-    /*box-shadow: 10px 10px lightgray;*/
     border-radius: 1px;
     padding: 15px;
     margin-bottom: 20px;
@@ -346,7 +348,6 @@ body {
     border-color:#000000;
     color: #eee;
     font-family:'Times New Roman', Times, serif;
-    /*box-shadow: 10px 10px lightgray;*/
     border-radius: 5px;
     padding: 15px;
     margin-bottom: 20px;
