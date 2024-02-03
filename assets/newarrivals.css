@@ -32,11 +32,14 @@ body{
 
 .header .header-1 .from-box{
     width: 40rem;
-    height: 3rem;
+    height: 2.5rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
     overflow: hidden;
     background: #fff;
     border: var(--border);
     border-radius: 0.5rem;
+    border:2px solid black;
     display: flex;
     align-items: center;
 }
@@ -129,6 +132,7 @@ li a:hover {
     height:35px;
     background: red;
     border: 2px solid red;
+    border-radius: 6px;
     margin-top:15px;
     color:#fff;
     font-size:15px;
@@ -277,6 +281,7 @@ li a:hover {
     top:380px;
     left:100px;
     width:130px;
+    height: 40px;
     border-radius:6px;
     font-weight: 500;
     color:white;
@@ -391,6 +396,11 @@ li a:hover {
     line-height: 23px;
 }
 
+
+.bottom .block .about{
+    font-size: 12px;
+    line-height: 24px;
+}
 
 .facebook-icon{
     font-size: 50px;

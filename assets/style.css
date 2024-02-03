@@ -87,7 +87,9 @@ section .main .main_img img{
 
 .header .header-1 .from-box{
     width: 40rem;
-    height: 3rem;
+    height: 2.5rem;
+    margin-top:15px;
+    margin-bottom: 15px;
     overflow: hidden;
     background: #fff;
     border: var(--border);
