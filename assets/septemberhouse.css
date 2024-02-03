@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,400;1,900&dispaly=swap");
+
+
+:root{
+    --orange:#ff6347;
+    --dark-color:#ff4508;
+    --black:black ; 
+    --light-color:black;
+    --border-hover:1rem solid var(--black);
+    --border:0.1rem solid rgba(0,0,0,0.1);
+    --box-shadow: 0 0.5rem 1rem Orgba(0,0,0,0.1);
+
+}
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0; 
+    margin: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    transition: all 0.2s linear;
+    transition: width none;
+    box-sizing: border-box;
+    
+}
+
+
+.header .header-1{
+    width:1525px;
+    display:flex;
+    background: #fff;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1.5rem 9%;
+}
+
+
+.header .header-1 .from-box{
+    width: 40rem;
+    height: 2.5rem;
+    margin-top:15px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    background: #fff;
+    border: var(--border);
+    border-radius: 0.5rem;
+    display: flex;
+    border-color: #000000;
+    align-items: center;
+}
+
+.header .header-1 .from-box input{
+    font-size: 1rem;
+    margin-top: 2px;
+    padding: 0 1.1rem;
+    color: var(--black);
+    width: 120%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.header .header-1 .from-box label{
+    font-size: 1.5rem;
+    color: var(--black);
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+
+
+.header .header-1 .from-box label:hover{
+    color: var(--black);
+}
+
+.header .header-1 .icons div,
+.header .header-1 .icons a{
+    font-size: 1.5rem;
+    margin: auto;
+    color: var(--black);
+    cursor: pointer;
+    margin-left: 1.5rem;
+    
+}
+
+#search-btn{
+    display: none;
+}
+
+.header .header-1 .icons div:hover,
+.header .header-1 .icons a:hover{
+    color:darkgrey;
+}
+
+ul {
+    list-style-type: none;
+    width:1525px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+
+}
+  
+li {
+    float: left;
+  
+
+}
+
+li a {
+    display: block;
+    font-size: medium;
+    color: white;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color:var(--orange);
+    display:inline-block;
+    padding: 15px 20px;
+}
+
+
+.login-btn{
+    width:130px;
+    height:50px;
+    background:transparent;
+    border:2px solid #fff;
+    outline:none;
+
+}
+
+
+.btn{
+    width:75px;
+    height:35px;
+    background: red;
+    border: 2px solid red;
+    border-radius: 6px;
+    margin-top:15px;
+    color:#fff;
+    font-size:15px;
+}
+
+.btn:hover{
+    background-color: white;
+    display:inline-block;
+    color: red;
+}
+
+
+.row .col-1{
+    position: relative;
+    object-fit: cover;
+    
+    
+    
+}
+
+.col-1 .img{
+    height: 400px;
+    width: 275px;
+    margin-top: 75px;
+    margin-left: 150px;
+    
+}
+
+
+.row .col-2{
+    text-align: right;
+}
+
