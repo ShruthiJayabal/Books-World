@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,400;1,900&dispaly=swap");
+
 *{
     font-family: 'Poppins', sans-serif;
     padding: 0; 
@@ -30,11 +32,14 @@ body{
 
 .header .header-1 .from-box{
     width: 40rem;
-    height: 3rem;
+    height: 2.5rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
     overflow: hidden;
     background: #fff;
     border: var(--border);
     border-radius: 0.5rem;
+    border:2px solid black;
     display: flex;
     align-items: center;
 }
@@ -127,6 +132,7 @@ li a:hover {
     height:35px;
     background: red;
     border: 2px solid red;
+    border-radius: 6px;
     margin-top:15px;
     color:#fff;
     font-size:15px;
@@ -140,16 +146,16 @@ li a:hover {
 
 
 .heading{
-    text-align: center;
-    margin: 50px 0;
+    text-align:center;
     color:black;
+    font-weight:550;
     font-size:30px;
 }
 
 .main .main_img img{
     width:850px;
     position:relative;
-    top:50px;
+    top:35px;
     left:300px;
 }
 
@@ -209,60 +215,41 @@ li a:hover {
 }
 
 .container{
-    min-height:100px;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 40px 0;
+    text-align: center;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
 }
 
 
+
+
 .card{
-    height: 450px;
     width: 200px;
-    padding: 20px;
+    height:430px;
+    background:#eee;
+    border-radius: 5px;
+    padding: 5px;
     overflow: hidden;
     position: relative;
     margin: 10px;
     margin-left: 5px;
+    line-height :0.5em;
 }
 
-.card img{
-    width: 190px;
-    height:280px;
-    object-fit: cover;
-}
-.card .info{
-    text-align: left;
-    line-height: 25px;
+
+.card:hover{
+    border:1.5px solid black;
 }
 
-.card .info h3{
-    color: #333;
-    padding-top: 5px;
-}
-
-.card .info .stars i{
-    color: gold;
-    padding: 10px 0;
-}
-
-.card .info .price{
-    font-size: 20px;
-    color: #f00333;
-    letter-spacing: 1px;
-}
 
 
 .card .panel{
     position: absolute;
-    top: 15px;
+    top:1px;
     right: 10px;
     width: 30px;
-    height: 150px;
-    padding: 5px;
-    background: rgba(225,225,225,.8);
+    height: 50px;
+    padding: 1px; 
     display: flex;
     align-items: center;
     flex-flow: column;
@@ -270,16 +257,15 @@ li a:hover {
 }
 
 .card:hover .panel{
-    top: 30px;
     right: 10px;
     opacity:1;
 }
 
 .card .panel a{
     font-size: 20px;
-    color: #333;
+    color:red;
     margin: 15px 0;
-
+  
 }
 
 
@@ -287,6 +273,64 @@ li a:hover {
     color: rgba(225,0,0,0.9);
 
 }
+
+
+.card .cart{
+    font-size: 13px;
+    top:380px;
+    left:100px;
+    width:130px;
+    height: 40px;
+    border-radius:6px;
+    font-weight: 500;
+    color:white;
+    background: red;
+}
+
+
+.card .cart:hover{
+    color:white;
+    background: red;
+
+
+}
+
+
+.container .card .image{
+    width: 150px;
+    margin-top: 45px;
+    height: 220px;
+    object-fit:cover;
+    
+}
+
+
+.card .info{
+    text-align: center;
+    line-height: 10px;
+}
+
+.card .info h4{
+    color:black;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.card .info .stars i{
+    color: gold;
+    font-size:smaller ;
+    padding: 10px 0;
+}
+
+.card .info .price{
+    font-size: 15px;
+    color: #f00333;
+    letter-spacing: 1px;
+    font-weight: 550;
+}
+
+
+
 
 
 .card button{
@@ -307,7 +351,6 @@ li a:hover {
     transition-delay: .2s;
 }
 
-
 .card:hover button{
     opacity:1;
     
@@ -316,6 +359,7 @@ li a:hover {
 .card button:hover{
     background: rgba(225,0,0,0.6);
 }
+
 
 
 
@@ -348,13 +392,18 @@ li a:hover {
     border-radius: 5px;
     padding: 15px;
     margin-bottom: 20px;
+    line-height: 23px;
 }
 
+
+.bottom .block .about{
+    font-size: 12px;
+    line-height: 24px;
+}
 
 .facebook-icon{
     font-size: 50px;
 }
-
 
 h1{
     text-align: center;
@@ -364,10 +413,8 @@ h1{
 .view{
     display: block;
     margin: auto;
-    width:100px;
-    height:30px;
-    background:#eee;
-    border: 2px solid red;
+    text-align: right;
+    text-align-last: right;
     margin-top:15px;
     color:red;
     font-size:14px;
@@ -377,4 +424,3 @@ h1{
     background-color: red;
     color: white;
 }
-
