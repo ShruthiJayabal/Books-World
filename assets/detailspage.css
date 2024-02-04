@@ -261,13 +261,25 @@ details{
     margin-left: 50px;
     font-size:30px;
     font-weight: 550;
+    line-height: 50px;
 }
 
-.sproduct{
-    margin-left: 50px;
-    font-size: 15px;
-    line-height: 25px;
-}
+
+
+
+.container {
+    
+    padding: 10px;
+    line-height: 30px;
+  }
+  
+.item {
+    margin-left: 40px;
+    display: inline-block;
+    vertical-align: middle
+  }
+
+
 
 .review{
     float: right;
