@@ -152,25 +152,186 @@ li a:hover {
     color: red;
 }
 
+details{
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-.row .col-1{
-    position: relative;
-    object-fit: cover;
-    
-    
+}
+
+.details .row{
+    margin: 60px auto;
+    width:70%;
+    line-height: 27px;
     
 }
 
-.col-1 .img{
+
+.details .row img{
+    width:290px; 
     height: 400px;
-    width: 275px;
-    margin-top: 75px;
-    margin-left: 150px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 70px;   
     
 }
 
-
-.row .col-2{
-    text-align: right;
+.row .text-box{
+    color: Black;
+    
 }
+
+.row .text-box h1{
+    font-size:larger;
+   
+}
+
+.text-box .quantity{
+    width:50px;
+    border:2px solid black;
+}
+
+.cart{
+    font-size: 13px;
+    top:380px;
+    left:100px;
+    width:130px;
+    height: 40px;
+    border-radius:6px;
+    font-weight: 500;
+    color:white;
+    background: red;
+}
+
+
+.cart:hover{
+    color:red;
+    background: white;
+    border:2px solid red;
+}
+
+.buy{
+    font-size: 13px;
+    top:380px;
+    left:100px;
+    width:130px;
+    height: 40px;
+    border-radius:6px;
+    font-weight: 500;
+    color:red;
+    background: white;
+    border:2px solid red;
+}
+
+
+.buy:hover{
+    color:white;
+    background: red;
+}
+
+
+.text-box .stars i{
+    color: gold;
+    font-size:smaller ;
+    padding: 10px 0;
+}
+
+.text-box .price{
+    font-size: 15px;
+    color: #f00333;
+    letter-spacing: 1px;
+    font-weight: 550;
+}
+
+
+.text-box .price{
+    font-size: 15px;
+    color:black;
+    letter-spacing: 1px;
+    
+}
+
+.text-box .description{
+    font-size: small;
+}
+
+.product{
+    margin:10px auto ;
+    margin-left: 50px;
+    font-size:30px;
+    font-weight: 550;
+}
+
+.sproduct{
+    margin-left: 50px;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.review{
+    float: right;
+    margin-right:50px;
+    color: red;
+}
+
+.feedback{
+    position: relative;
+    width:300px;
+    height: 300px;
+    left:600px;
+}
+
+.add{
+    text-align: center;
+}
+
+
+
+/* bootom */
+
+
+.bottom{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+}
+
+.bottom .content{
+    width: 565px;
+    height:360px;
+    background:black;
+    border-color:#000000;
+    /*box-shadow: 10px 10px lightgray;*/
+    border-radius: 1px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.bottom .block{
+    width: 320px;
+    height:340px;
+    background:black;
+    border-color:#000000;
+    color: #eee;
+    font-family:'Times New Roman', Times, serif;
+    /*box-shadow: 10px 10px lightgray;*/
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    line-height: 23px;
+}
+
+
+.bottom .block .about{
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.facebook-icon{
+    font-size: 50px;
+}
+
+
+
+
 
