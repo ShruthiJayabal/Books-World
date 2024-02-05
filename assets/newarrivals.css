@@ -262,18 +262,18 @@ li a:hover {
     opacity:1;
 }
 
-.card .panel a{
+.panel a{
     font-size: 20px;
+    margin: 15px 0; 
+    
+}
+
+.panel a:hover{
     color:red;
-    margin: 15px 0;
-  
 }
 
 
-.card .panel a:hover{
-    color: rgba(225,0,0,0.9);
 
-}
 
 
 .card .cart{
