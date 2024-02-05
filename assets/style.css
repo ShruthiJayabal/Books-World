@@ -137,7 +137,7 @@ section .main .main_img img{
 
 .header .header-1 .icons div:hover,
 .header .header-1 .icons a:hover{
-    color:darkgrey;
+    color:#FE4239;
 }
 
 ul {
@@ -166,7 +166,7 @@ li a {
 }
   
 li a:hover {
-    background-color:var(--orange);
+    background-color:#FE4239;
     display:inline-block;
     padding: 15px 20px;
 }
@@ -185,8 +185,8 @@ li a:hover {
 .btn{
     width:75px;
     height:35px;
-    background: red;
-    border: 2px solid red;
+    background: #FE4239;
+    border: 2px solid #FE4239;
     border-radius: 6px;
     margin-top:15px;
     color:#fff;
@@ -196,7 +196,7 @@ li a:hover {
 .btn:hover{
     background-color: white;
     display:inline-block;
-    color: red;
+    color: #FE4239;
 }
 
 
@@ -237,9 +237,9 @@ li a:hover {
     height:30px;
     border-radius: 7px;
     background: white;
-    border: 2px solid orangered;
+    border: 2px solid #FE4239;
     margin-top:50px;
-    color:orangered;
+    color:#FE4239;
     font-size:14px;
     padding: 0 10px;
     display:block;
@@ -250,7 +250,7 @@ li a:hover {
 }
 
 .sec button:hover{
-    background-color:orangered;
+    background-color:#FE4239;
     display:inline-block;
     color: white;
 
