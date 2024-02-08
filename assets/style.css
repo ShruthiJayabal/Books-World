@@ -137,7 +137,7 @@ section .main .main_img img{
 
 .header .header-1 .icons div:hover,
 .header .header-1 .icons a:hover{
-    color:#FE4239;
+    color: orangered;
 }
 
 ul {
@@ -166,7 +166,7 @@ li a {
 }
   
 li a:hover {
-    background-color:#FE4239;
+    background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
     display:inline-block;
     padding: 15px 20px;
 }
@@ -185,8 +185,7 @@ li a:hover {
 .btn{
     width:75px;
     height:35px;
-    background: #FE4239;
-    border: 2px solid #FE4239;
+    background-image:linear-gradient(-180deg, #FF7E31, #E62C03);
     border-radius: 6px;
     margin-top:15px;
     color:#fff;
@@ -194,9 +193,7 @@ li a:hover {
 }
 
 .btn:hover{
-    background-color: white;
-    display:inline-block;
-    color: #FE4239;
+    box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
 }
 
 
@@ -214,7 +211,7 @@ li a:hover {
     margin: auto;
     width:100px;
     height:30px;
-    background:#eee;
+    background:whitesmoke;
     border: 2px solid black;
     border-radius: 6px;
     margin-top:15px;
@@ -237,9 +234,9 @@ li a:hover {
     height:30px;
     border-radius: 7px;
     background: white;
-    border: 2px solid #FE4239;
+    border: 2px solid #E62C03;
     margin-top:50px;
-    color:#FE4239;
+    color:#E62C03;
     font-size:14px;
     padding: 0 10px;
     display:block;
@@ -250,7 +247,11 @@ li a:hover {
 }
 
 .sec button:hover{
-    background-color:#FE4239;
+   
+    color: #FFFFFF;
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+    box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
     display:inline-block;
     color: white;
 
@@ -320,7 +321,7 @@ li a:hover {
 
 
 body {
-    background-color:#eee;
+    background-color:whitesmoke;
     width:1440px;
 }
 
