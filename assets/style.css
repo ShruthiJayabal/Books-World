@@ -485,7 +485,7 @@ body {
     }
 
     .header .header-1{
-        width:992px;
+        width:960px;
         display:flex;
         background: #fff;
         justify-content: space-between;
