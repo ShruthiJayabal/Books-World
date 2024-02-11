@@ -471,7 +471,7 @@ body {
     
     body {
         background-color:whitesmoke;
-        width:980px;
+        width:150%;
     }
     
 
@@ -485,7 +485,7 @@ body {
     }
 
     .header .header-1{
-        width:940px;
+        width:100%;
         display:flex;
         background: #fff;
         justify-content: space-between;
@@ -577,7 +577,7 @@ body {
 
     ul {
         list-style-type: none;
-        width:1000px;
+        width:100%;
         margin: 0;
         padding: 0;
         overflow: hidden;
@@ -652,7 +652,7 @@ body {
         border-radius: 5px;
         padding: 15px;
         margin-bottom: 20px;
-        margin-right: 60px;
+        margin-right: 40px;
         margin-left: 2px;
     }
     
