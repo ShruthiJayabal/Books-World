@@ -458,12 +458,21 @@ body {
     
     body {
         background-color:whitesmoke;
-        width:750px;
+        width:785px;
+    }
+    
+
+    
+
+    .heading{
+        text-align: center;
+        margin: 50px 0;
+        color:black;
+        font-size:20px;
     }
 
-
     .header .header-1{
-        width:750px;
+        width:785px;
         display:flex;
         background: #fff;
         justify-content: space-between;
@@ -538,7 +547,7 @@ body {
 
     ul {
         list-style-type: none;
-        width:750px;
+        width:785px;
         margin: 0;
         padding: 0;
         overflow: hidden;
@@ -603,15 +612,18 @@ body {
         height: 0.5px;
         color:whitesmoke;
         background-color: whitesmoke;
+        margin-left: 0px;
     }
 
     .products .card{
-        width: 180px;
+        width: 170px;
         height:360px;
         background:white;
         border-radius: 5px;
         padding: 15px;
         margin-bottom: 20px;
+        margin-right: 15px;
+        margin-left: 2px;
     }
     
     .products .card:hover{
@@ -661,6 +673,7 @@ body {
     }
 
 
+
     .bottom{
         display:flex;
         background-color: black;
@@ -669,7 +682,7 @@ body {
     
     .bottom .content{
         width: 250px;
-        height:360px;
+        height:200px;
         border-color:#000000;
         border-radius: 1px;
         padding: 15px;
@@ -678,7 +691,7 @@ body {
     
     .bottom .block{
         width: 200px;
-        height:340px;
+        height:200px;
         border-color:#000000;
         color: #eee;
         font-family:'Times New Roman', Times, serif;
@@ -705,7 +718,9 @@ body {
         font-size: 30px;
     }
     
-    
+    .terms{
+        font-size: 10px;
+    }
     
 
 
