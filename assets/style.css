@@ -471,7 +471,7 @@ body {
     
     body {
         background-color:whitesmoke;
-        width:946px;
+        width:992px;
     }
     
 
@@ -485,7 +485,7 @@ body {
     }
 
     .header .header-1{
-        width:946px;
+        width:992px;
         display:flex;
         background: #fff;
         justify-content: space-between;
@@ -577,7 +577,7 @@ body {
 
     ul {
         list-style-type: none;
-        width:946px;
+        width:992px;
         margin: 0;
         padding: 0;
         overflow: hidden;
@@ -652,7 +652,7 @@ body {
         border-radius: 5px;
         padding: 15px;
         margin-bottom: 20px;
-        margin-right: 27px;
+        margin-right: 60px;
         margin-left: 2px;
     }
     
@@ -809,7 +809,7 @@ body {
 
     
     .offer .main_image img{
-        width:700px;
+        width:790px;
         height: 220px;
         position:relative;
         top:50px;
