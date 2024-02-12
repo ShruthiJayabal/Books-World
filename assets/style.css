@@ -735,6 +735,7 @@ li a:hover {
     height: 0.5px;
     color:whitesmoke;
     background-color: whitesmoke;
+    border: 1px solid whitesmoke;
     margin-left: 0px;
 }
 
