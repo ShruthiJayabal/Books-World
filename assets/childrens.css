@@ -265,11 +265,12 @@ li a:hover {
 .panel a{
     font-size: 20px;
     margin: 15px 0; 
+    background-image:linear-gradient(-180deg, #FF7E31, #E62C03);
     
 }
 
 .panel a:hover{
-    color:red;
+    box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
 }
 
 
@@ -404,6 +405,10 @@ li a:hover {
 
 .facebook-icon{
     font-size: 50px;
+}
+
+.terms{
+    font-size: 20px;
 }
 
 h1{

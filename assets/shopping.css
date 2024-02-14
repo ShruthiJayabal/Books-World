@@ -98,6 +98,12 @@ body {
     color: #FE4239;
 }
 
+
+.header .header-1 img{
+    width:99px;
+    height:70px;
+}
+
 .cart{
     text-align: center;
 }
@@ -125,8 +131,7 @@ body {
     width:125px;
     height:35px;
     border-radius: 6px;
-    background:#FE4239;
-    border: 2px solid #FE4239;
+    
     margin-top:15px;
     color:white;
     font-size:14px;
@@ -202,4 +207,206 @@ body {
     background-color: white;
     display:inline-block;
     color: #FE4239;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:1920px){
+    
+
+body {
+    background-color:#eee;
+    width:1920px;
+}
+
+
+.header .header-1{
+    width:1920px;
+    display:flex;
+    background: #fff;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1.5rem 9%;
+}
+
+
+.header .header-1 .from-box{
+    width: 45rem;
+    height: 2.5rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    background: #fff;
+    border: var(--border);
+    border-radius: 0.5rem;
+    border:2px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.header .header-1 .from-box input{
+    font-size: 1rem;
+    margin-top: 2px;
+    padding: 0 1.1rem;
+    color: var(--black);
+    width: 120%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.header .header-1 .from-box label{
+    font-size: 1.5rem;
+    color: var(--black);
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+
+
+.header .header-1 .from-box label:hover{
+    color: var(--black);
+}
+
+.header .header-1 .icons div,
+.header .header-1 .icons a{
+    font-size: 1.7rem;
+    margin: auto;
+    color: var(--black);
+    cursor: pointer;
+    margin-left: 1.5rem;
+    
+}
+
+#search-btn{
+    display: none;
+}
+
+.header .header-1 .icons div:hover,
+.header .header-1 .icons a:hover{
+    color: #FE4239;
+}
+
+.cart{
+    text-align: center;
+}
+.shop{
+    text-align: center;
+    margin: 50px 0;
+    color:black;
+    font-size:30px;
+}
+
+.empty{
+    font-size:15px;
+    color:black;
+    text-align: center;
+}
+
+.center img{
+   text-align:center;
+}
+
+
+.cart button{
+    display: block;
+    margin: auto;
+    width:125px;
+    height:35px;
+    border-radius: 6px;
+    background-image:linear-gradient(-180deg, #FF7E31, #E62C03);
+    margin-top:15px;
+    color:white;
+    font-size:14px;
+}
+
+.cart button:hover{
+    background-color: white;
+    font-weight: bold;
+    
+
+}
+
+
+
+.bottom{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+}
+
+
+.bottom .content .block h3{
+    font-size:30px;
+}
+.content .block .company{
+    font-size:20px;
+    line-height: 30px;
+}
+
+
+.bottom .content{
+    width: 640px;
+    height:360px;
+    background:black;
+    border-color:#000000;
+    /*box-shadow: 10px 10px lightgray;*/
+    border-radius: 1px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.bottom .block{
+    width: 320px;
+    height:340px;
+    background:black;
+    border-color:#000000;
+    color: #eee;
+    font-family:'Times New Roman', Times, serif;
+    /*box-shadow: 10px 10px lightgray;*/
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+
+.facebook-icon{
+    font-size: 50px;
+}
+
+.terms{
+    font-size: 20px;
+}
+
+
+
+.login-btn{
+    width:130px;
+    height:50px;
+    background:#FE4239;
+    border:2px solid #fff;
+    outline:none;
+
+}
+
+
+.btn{
+    width:85px;
+    height:40px;
+    background-image:linear-gradient(-180deg, #FF7E31, #E62C03);
+    border-radius: 6px;
+    margin-top:15px;
+    color:#fff;
+    font-size:15px;
+}
+
+.btn:hover{
+    box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+}
+
+
+
+
 }
