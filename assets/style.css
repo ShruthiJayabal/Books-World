@@ -953,7 +953,7 @@ body {
 
 
 
-@media screen and (max-width:1920px){
+@media screen and (max-width:1200px){
     
 section{
     width: 105%;
@@ -1297,7 +1297,7 @@ body {
 
 .bottom .content{
     width: 700px;
-    height:380px;
+    height:400px;
     background:black;
     border-color:#000000;
     border-radius: 1px;
@@ -1309,16 +1309,18 @@ body {
 
 .bottom .block{
     width: 320px;
-    height:340px;
+    height:360px;
     background:black;
     border-color:#000000;
     color: #eee;
     font-family:'Times New Roman', Times, serif;
     border-radius: 5px;
     padding: 15px;
-    margin-bottom: 20px;
+    line-height: 23px;
+    margin-bottom: 40px;
     margin-left: 50px;
     margin-right: 40px;
+    margin-top: 20px;
 }
 
 
