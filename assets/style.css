@@ -713,7 +713,7 @@ li a:hover {
     margin:auto;
     margin: 5px;
     text-align: center;
-    margin-left:25px;
+    margin-left:20px;
     
 }
 
@@ -733,6 +733,7 @@ li a:hover {
     display:flex;
     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
     overflow-y: auto;
+    overflow-y: hidden;
 
 }
 
@@ -874,7 +875,7 @@ body {
     
 .offer .main_image img{
     width:1200px;
-    height: 220px;
+    height: 280px;
     position:relative;
     top:50px;
     margin-left:100px;
