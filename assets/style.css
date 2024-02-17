@@ -1582,7 +1582,7 @@ body {
     
     .header .header-1 .icons div,
     .header .header-1 .icons a{
-        font-size: 2rem;
+        font-size: 1.8rem;
         margin: auto;
         color: var(--black);
         cursor: pointer;
@@ -1602,7 +1602,7 @@ body {
     ul {
         list-style-type: none;
         width:1500px;
-        height:70px;
+        height:60px;
         margin: 0;
         padding: 0;
         overflow: hidden;
@@ -1618,17 +1618,17 @@ body {
     
     li a {
         display: block;
-        font-size: 25px;
+        font-size: 20px;
         color: white;
         text-align: center;
-        padding: 15px 20px;
+        padding: 15px 15px;
         text-decoration: none;
     }
       
     li a:hover {
         background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
         display:inline-block;
-        padding: 18px 20px;
+        padding: 15px 15px;
     }
     
     
@@ -1690,7 +1690,7 @@ body {
     }
     
     .sec button{
-        width:180px;
+        width:150px;
         height:30px;
         border-radius: 7px;
         background: white;
@@ -1703,7 +1703,7 @@ body {
         margin:auto;
         margin: 5px;
         text-align: center;
-        margin-left:20px;
+        margin-left:10px;
         
     }
     
@@ -1720,32 +1720,21 @@ body {
     
     
     .products{
-        display:flex;
+        display:grid;
         grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-        overflow-y: auto;
-        overflow-y: hidden;
-    
-    }
-    
-    .products::-webkit-scrollbar{
-        width:0;
-        height: 0.1px;
-        color:whitesmoke;
-        background-color: whitesmoke;
-        border: 1px solid whitesmoke;
-        margin-left: 0px;
+        
     }
     
     
     .products .card{
-        width:400px;
-        height:440px;
+        width:200px;
+        height:390px;
         background:white;
         border-radius: 5px;
         padding: 15px;
         margin-bottom: 20px;
-        margin-right: 50px;
-        margin-left: 40px;
+        margin-right: 40px;
+        
     }
     
     
@@ -1756,8 +1745,8 @@ body {
     
     
     .products .card img{
-        height: 300px;
-        width: 230px;
+        height: 250px;
+        width: 170px;
     }
     
     .products .card .title{
