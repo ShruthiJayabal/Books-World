@@ -636,7 +636,7 @@ details{
 
 .review{
     float: right;
-    margin-right:50px;
+    margin-right:0px;
     color: red;
     font-size: 20px;
 }
@@ -645,12 +645,13 @@ details{
     position: relative;
     width:300px;
     height: 300px;
-    left:600px;
+    left:800px;
 }
 
 .add{
     text-align: center;
     font-size: 20px;
+    margin-left: 150px;
 }
 
 
@@ -694,12 +695,14 @@ details{
     padding: 15px;
     margin-bottom: 20px;
     line-height: 23px;
+    margin-left: 50px;
 }
 
 
 .bottom .block .about{
-    font-size: 12px;
-    line-height: 24px;
+    font-size: 15px;
+    line-height: 29px;
+   
 }
 
 .facebook-icon{
@@ -707,6 +710,11 @@ details{
 }
 
 
+
+
+.terms{
+    font-size: 20px;
+}
 
 
 

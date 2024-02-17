@@ -472,7 +472,7 @@ body {
 
 
 
-@media screen and (max-width:600px){
+@media only screen and (max-width:600px){
     
 section{
     width: 105%;
@@ -509,23 +509,28 @@ section .main p{
 
 section .main .main_tag{
     position:relative;
-    margin-left: 20px;
+    margin-left: 70px;
     margin-top: 20px;
     
     
 }
 
+
+section .main .main_tag h2{
+    font-size: 25px;
+    
+}
+
 section .main .main_tag h4{
-    font-size: 20px;
+    font-size: 15px;
     
 }
 
 section .main .main_img img{
-    width:700px;
+    width:800px;
     position:relative;
     top:20px;
-    margin-right: 20px;
-    margin-left:20px;
+   
 }
 
 
@@ -535,7 +540,7 @@ section .main .main_img img{
 
 
 .header .header-1{
-    width:1340px;
+    width:1500px;
     display:flex;
     background: #fff;
     justify-content: space-between;
@@ -544,8 +549,8 @@ section .main .main_img img{
 }
 
 .header .header-1 img{
-    width:95px;
-    height:55px;
+    width:150px;
+    height:90px;
 }
 
 
@@ -587,7 +592,7 @@ section .main .main_img img{
 
 .header .header-1 .icons div,
 .header .header-1 .icons a{
-    font-size: 1.7rem;
+    font-size: 2rem;
     margin: auto;
     color: var(--black);
     cursor: pointer;
@@ -606,8 +611,8 @@ section .main .main_img img{
 
 ul {
     list-style-type: none;
-    width:1340px;
-    height:60px;
+    width:1500px;
+    height:70px;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -623,7 +628,7 @@ li {
 
 li a {
     display: block;
-    font-size: 19px;
+    font-size: 25px;
     color: white;
     text-align: center;
     padding: 15px 20px;
@@ -633,7 +638,7 @@ li a {
 li a:hover {
     background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
     display:inline-block;
-    padding: 15px 20px;
+    padding: 18px 20px;
 }
 
 
@@ -648,13 +653,13 @@ li a:hover {
 
 
 .btn{
-    width:90px;
+    width:105px;
     height:40px;
     background-image:linear-gradient(-180deg, #FF7E31, #E62C03);
     border-radius: 6px;
     margin-top:15px;
     color:#fff;
-    font-size:15px;
+    font-size:17px;
 }
 
 .btn:hover{
@@ -695,7 +700,7 @@ li a:hover {
 }
 
 .sec button{
-    width:160px;
+    width:180px;
     height:30px;
     border-radius: 7px;
     background: white;
@@ -708,7 +713,7 @@ li a:hover {
     margin:auto;
     margin: 5px;
     text-align: center;
-    margin-left:10px;
+    margin-left:25px;
     
 }
 
@@ -742,14 +747,14 @@ li a:hover {
 
 
 .products .card{
-    width:370px;
-    height:385px;
+    width:400px;
+    height:440px;
     background:white;
     border-radius: 5px;
     padding: 15px;
     margin-bottom: 20px;
-    margin-right: 40px;
-    margin-left: 50px;
+    margin-right: 50px;
+    margin-left: 40px;
 }
 
 
@@ -760,8 +765,8 @@ li a:hover {
 
 
 .products .card img{
-    height: 250px;
-    width: 180px;
+    height: 300px;
+    width: 230px;
 }
 
 .products .card .title{
@@ -804,7 +809,7 @@ li a:hover {
 
 body {
     background-color:whitesmoke;
-    width:1275px;
+    width:1400px;
 }
 
 
@@ -816,8 +821,17 @@ body {
     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
 }
 
+.bottom .content .block h3{
+    font-size:30px;
+}
+.content .block .company{
+    font-size:20px;
+    line-height: 30px;
+}
+
+
 .bottom .content{
-    width: 485px;
+    width: 560px;
     height:360px;
     background:black;
     border-color:#000000;
@@ -835,27 +849,35 @@ body {
     font-family:'Times New Roman', Times, serif;
     border-radius: 5px;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom:40px;
+    margin-left: 50px;
 }
 
 
 .bottom .block .about{
-    font-size: 13px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 29px;
+    
 }
 
 .facebook-icon{
     font-size: 50px;
 }
 
+.terms{
+    font-size: 20px;
+}
+
+
+
 
     
 .offer .main_image img{
-    width:1300px;
+    width:1200px;
     height: 220px;
     position:relative;
     top:50px;
-    margin-left:150px;
+    margin-left:100px;
 }
 
 
@@ -954,7 +976,7 @@ body {
 
 
 
-@media screen and (max-width:1200px){
+@media only screen and (min-width:1200px){
     
 section{
     width: 105%;
