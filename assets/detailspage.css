@@ -881,7 +881,7 @@ details{
 
     .description{
         text-align: justify;
-        font-size:16px;
+        font-size:17px;
     }
     
     details{
@@ -922,6 +922,7 @@ details{
     
     .row .text-box p{
         font-size: 17px;
+        text-align:justify;
     }
 
     .text-box .quantity{
@@ -1267,6 +1268,7 @@ details{
 
     .description{
         text-align: justify;
+        font-size: 17px;
     }
     
     details{
@@ -1301,6 +1303,13 @@ details{
     
     .row .text-box h1{
         font-size:larger;
+       
+    }
+
+     
+    .row .text-box p{
+        font-size:20px;
+        text-align: justify;
        
     }
     
@@ -1434,7 +1443,7 @@ details{
     
     .bottom .content{
         width: 560px;
-        height:360px;
+        height:380px;
         background:black;
         border-color:#000000;
         /*box-shadow: 10px 10px lightgray;*/
@@ -1445,7 +1454,7 @@ details{
     
     .bottom .block{
         width: 320px;
-        height:360px;
+        height:340px;
         background:black;
         border-color:#000000;
         color: #eee;
