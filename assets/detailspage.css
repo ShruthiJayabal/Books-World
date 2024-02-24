@@ -1262,9 +1262,9 @@ details{
     }
     
 
-    .description{
+    .row .text-box .description{
         text-align: justify;
-        font-size: 17px;
+        font-size: 18px;
     }
     
     details{
@@ -1299,13 +1299,6 @@ details{
     
     .row .text-box h1{
         font-size:larger;
-       
-    }
-
-     
-    .row .text-box p{
-        font-size:20px;
-        text-align: justify;
        
     }
     
