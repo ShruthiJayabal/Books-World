@@ -881,7 +881,7 @@ details{
 
     .row .text-box .description{
         text-align: justify;
-        font-size:15px;
+        font-size:13px;
     }
     
     details{
@@ -919,11 +919,7 @@ details{
        
     }
     
-    
-    .row .text-box p{
-        font-size: 17px;
-        text-align:justify;
-    }
+
 
     .text-box .quantity{
         width:50px;
