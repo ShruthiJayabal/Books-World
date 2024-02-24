@@ -1264,7 +1264,7 @@ details{
 
     .row .text-box .description{
         text-align: justify;
-        font-size: 18px;
+        font-size: 20px;
     }
     
     details{
@@ -1427,7 +1427,7 @@ details{
     .bottom{
         display:grid;
         grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-        margin-top: 200px;
+        margin-top: 260px;
     }
     
     .bottom .content{
