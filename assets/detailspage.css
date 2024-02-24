@@ -986,15 +986,14 @@ details{
     }
     
     
-    .text-box .items{
-        font-size: 20px;
+    .text-box .price{
         color:black;
         letter-spacing: 1px;
         
     }
     
     .text-box .description{
-        font-size: small;
+        font-size:15px;
     }
 
     
@@ -1445,7 +1444,7 @@ details{
     
     .bottom .block{
         width: 320px;
-        height:340px;
+        height:360px;
         background:black;
         border-color:#000000;
         color: #eee;
