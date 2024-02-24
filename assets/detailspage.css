@@ -739,6 +739,378 @@ details{
 
 
 
+@media only screen and (max-width:992px){
+
+
+    body {
+        background-color:whitesmoke;
+        width:1400px;
+    }
+    
+    
+    .header .header-1{
+        width:1500px;
+        display:flex;
+        background: #fff;
+        justify-content: space-between;
+        text-align: center;
+        padding: 1.5rem 9%;
+    }
+    
+    
+    .header .header-1 img{
+        width:105px;
+        height:90px;
+    }
+    
+    .header .header-1 .from-box{
+        width: 40rem;
+        height: 2.5rem;
+        margin-top:15px;
+        margin-bottom: 15px;
+        overflow: hidden;
+        background: #fff;
+        border: var(--border);
+        border-radius: 0.5rem;
+        display: flex;
+        border-color: #000000;
+        align-items: center;
+    }
+    
+    .header .header-1 .from-box input{
+        font-size: 0.9rem;
+        margin-top: 2px;
+        padding: 0 1.1rem;
+        color: var(--black);
+        width: 120%;
+        height: 100%;
+        text-decoration: none;
+    }
+    
+    .header .header-1 .from-box label{
+        font-size: 1.5rem;
+        color: var(--black);
+        margin-right: 1.5rem;
+        cursor: pointer;
+    }
+    
+    
+    .header .header-1 .from-box label:hover{
+        color: var(--black);
+    }
+    
+    .header .header-1 .icons div,
+    .header .header-1 .icons a{
+        font-size: 1.8rem;
+        margin: auto;
+        color: var(--black);
+        cursor: pointer;
+        margin-left: 1.5rem;
+        
+    }
+    
+    #search-btn{
+        display: none;
+    }
+    
+    .header .header-1 .icons div:hover,
+    .header .header-1 .icons a:hover{
+        color: orangered;
+    }
+    
+    ul {
+        list-style-type: none;
+        width:1500px;
+        height: 60px;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:black;
+    
+    }
+      
+    li {
+        float: left;
+      
+    
+    }
+    
+    li a {
+        display: block;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        padding: 15px 15px;
+        text-decoration: none;
+    }
+      
+    li a:hover {
+        background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+        display:inline-block;
+        padding: 15x 15px;
+    }
+    
+    
+    .login-btn{
+        width:130px;
+        height:50px;
+        background:transparent;
+        border:2px solid #fff;
+        outline:none;
+    
+    }
+    
+    
+    .btn{
+        width:105px;
+        height:40px;
+        background-image:linear-gradient(-180deg, #FF7E31, #E62C03);
+        border-radius: 6px;
+        margin-top:15px;
+        color:#fff;
+        font-size:17px;
+    }
+    
+    .btn:hover{
+        box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+    }
+    
+    
+    details{
+        background-color: #eee;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .details .row{
+        margin: 60px auto;
+        width:70%;
+        line-height: 27px;
+        
+    }
+    
+    
+    .details .row img{
+        width:400px; 
+        height: 530px;
+        float: left;
+        margin-top: 5px;
+        margin-right: 90px;   
+        
+    }
+    
+    .row .text-box{
+        color: Black;
+        
+    }
+    
+    .row .text-box h1{
+        font-size:larger;
+       
+    }
+    
+    .text-box .quantity{
+        width:50px;
+        border:2px solid black;
+    }
+    
+    .cart{
+        font-size: 13px;
+        top:380px;
+        left:100px;
+        width:130px;
+        height: 40px;
+        border-radius:6px;
+        font-weight: 500;
+        color:white;
+        color: #FFFFFF;
+        background-color: initial;
+        background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+    }
+    
+    
+    .cart:hover{
+        color:#E62C03;
+        background: white;
+        border:2px solid #E62C03;
+    }
+    
+    .buy{
+        font-size: 13px;
+        top:380px;
+        left:100px;
+        width:130px;
+        height: 40px;
+        border-radius:6px;
+        font-weight: 500;
+        color:#E62C03;
+        background: white;
+        border:2px solid #E62C03;
+    }
+    
+    
+    .buy:hover{
+        color: #FFFFFF;
+        background-color: initial;
+        background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+        color:white;
+    }
+    
+    
+    .text-box .stars i{
+        color: gold;
+        font-size:smaller ;
+        padding: 10px 0;
+    }
+    
+    .text-box .price{
+        font-size: 15px;
+        color: #f00333;
+        letter-spacing: 1px;
+        font-weight: 550;
+    }
+    
+    
+    .text-box .price{
+        font-size: 15px;
+        color:black;
+        letter-spacing: 1px;
+        
+    }
+    
+    .text-box .description{
+        font-size: small;
+    }
+    
+    .product{
+        margin:10px auto ;
+        margin-left: 50px;
+        font-size:30px;
+        font-weight: 550;
+        line-height: 50px;
+    }
+    
+    
+    
+    
+    .container {
+        
+        padding: 10px;
+        line-height: 30px;
+      }
+      
+    .item {
+        margin-left: 40px;
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 35px;
+        font-size: 22px;
+      }
+    
+    
+    
+    .review{
+        float: right;
+        margin-right:50px;
+        color: red;
+    }
+    
+    .feedback{
+        position: relative;
+        width:350px;
+        height: 300px;
+        left:600px;
+    }
+    
+    .add{
+        text-align: center;
+    }
+    
+    
+    
+    /* bootom */
+    
+    
+    .bottom{
+        display:grid;
+        grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+        margin-top: 600px;
+    }
+
+     
+    .bottom .content .block h3{
+        font-size:30px;
+    }
+    .content .block .company{
+        font-size:20px;
+        line-height: 30px;
+    }
+    
+    .bottom .content{
+        width: 560px;
+        height:400px;
+        background:black;
+        border-color:#000000;
+        /*box-shadow: 10px 10px lightgray;*/
+        border-radius: 1px;
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .bottom .block{
+        width: 320px;
+        height:340px;
+        background:black;
+        border-color:#000000;
+        color: #eee;
+        font-family:'Times New Roman', Times, serif;
+        /*box-shadow: 10px 10px lightgray;*/
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 40px;
+        line-height: 23px;
+    }
+    
+    
+    .bottom .block .about{
+        font-size: 14px;
+        line-height: 29px;
+    }
+    
+    .facebook-icon{
+        font-size: 50px;
+    }
+    
+    .terms{
+        font-size: 20px;
+    }
+    
+    
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width:600px){
 
 
