@@ -1427,7 +1427,7 @@ details{
     .bottom{
         display:grid;
         grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-        margin-top: 400px;
+        margin-top: 430px;
     }
     
     .bottom .content{
