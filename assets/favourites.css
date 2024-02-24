@@ -429,6 +429,231 @@ body {
     
     
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media only screen and (max-width:992px){
+        body {
+            background-color:whitesmoke;
+            width:1400px;
+        }
+        
+        
+        .header .header-1{
+            width:1500px;
+            display:flex;
+            background: #fff;
+            justify-content: space-between;
+            text-align: center;
+            padding: 1.5rem 9%;
+        }
+        
+        .header .header-1 img{
+            width:105px;
+            height:90px;
+        }
+        
+        
+        .header .header-1 .from-box{
+            width: 40rem;
+            height: 2.5rem;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            overflow: hidden;
+            background: #fff;
+            border: var(--border);
+            border: 2px solid black;
+            border-radius: 0.5rem;
+            display: flex;
+            align-items: center;
+        }
+        
+        .header .header-1 .from-box input{
+            font-size: 1rem;
+            margin-top: 2px;
+            padding: 0 1.1rem;
+            color: var(--black);
+            width: 120%;
+            height: 100%;
+            text-decoration: none;
+        }
+        
+        .header .header-1 .from-box label{
+            font-size: 1.5rem;
+            color: var(--black);
+            margin-right: 1.5rem;
+            cursor: pointer;
+        }
+        
+        
+        .header .header-1 .from-box label:hover{
+            color: var(--black);
+        }
+        
+        .header .header-1 .icons div,
+        .header .header-1 .icons a{
+            font-size: 1.8rem;
+            margin: auto;
+            color: var(--black);
+            cursor: pointer;
+            margin-left: 1.5rem;
+            
+        }
+        
+        #search-btn{
+            display: none;
+        }
+        
+        .header .header-1 .icons div:hover,
+        .header .header-1 .icons a:hover{
+            color:darkgrey;
+        }
+        
+        
+        .bottom{
+            display:grid;
+            grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+        }
+        
+        .bottom .content .block h3{
+            font-size:30px;
+        }
+        .content .block .company{
+            font-size:20px;
+            line-height: 30px;
+        }
+        
+        .bottom .content{
+            width: 560px;
+            height:400px;
+            background:black;
+            border-color:#000000;
+            /*box-shadow: 10px 10px lightgray;*/
+            border-radius: 1px;
+            padding: 15px;
+            margin-bottom: 20px;
+            
+        }
+        
+        .bottom .block{
+            width: 320px;
+            height:340px;
+            background:black;
+            border-color:#000000;
+            color: #eee;
+            font-family:'Times New Roman', Times, serif;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 40px;
+            margin-left: 50px;
+            
+        
+        }
+        
+        
+        .facebook-icon{
+            font-size: 50px;
+        }
+        
+        .terms{
+            font-size: 20px;
+        }
+        
+        
+        
+        .bottom .block .about{
+            font-size: 14px;
+            line-height: 29px;
+        }
+        
+        
+        
+        
+        .login-btn{
+            width:130px;
+            height:50px;
+            background:transparent;
+            border:2px solid #fff;
+            outline:none;
+        
+        }
+        
+        
+        body {
+            background-color:whitesmoke;
+            width:1828px;
+        }
+        
+        
+        .btn{
+            width:105px;
+            height:40px;
+            background-image:linear-gradient(-180deg, #FF7E31, #E62C03);
+            border-radius: 6px;
+            margin-top:15px;
+            color:#fff;
+            font-size:17px;
+        }
+        
+        .btn:hover{
+            box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+        }
+        }
+        
+        
+        
+        .fav{
+            text-align: center;
+        }
+        .wishlist{
+            text-align: center;
+            margin: 50px 0;
+            color:black;
+            font-size:30px;
+        }
+        
+        .box{
+            font-size:15px;
+            color:black;
+            text-align: center;
+        }
+        
+        .center img{
+           text-align:center;
+        }
+        
+        
+        .fav button{
+            display: block;
+            margin: auto;
+            width:125px;
+            height:30px;
+            background-image:linear-gradient(-180deg, #FF7E31, #E62C03);
+            border-radius: 6px;
+            margin-top:15px;
+            color:white;
+            font-size:14px;
+        }
+        
+        .fav button:hover{
+            box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+        }
+        
+
+    
+
+
+
     
 
 
