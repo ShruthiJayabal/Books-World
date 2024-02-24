@@ -522,6 +522,7 @@ body {
     
     
     .bottom{
+        margin-top: 1400px;
         display:grid;
         grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
     }
