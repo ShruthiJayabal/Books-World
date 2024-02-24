@@ -881,6 +881,7 @@ details{
 
     .description{
         text-align: justify;
+        font-size:16px;
     }
     
     details{
@@ -1043,7 +1044,7 @@ details{
     .bottom{
         display:grid;
         grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-        margin-top: 200px;
+        margin-top: 160px;
     }
 
      
@@ -1419,6 +1420,7 @@ details{
     .bottom{
         display:grid;
         grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+        margin-top: 160px;
     }
     
     .bottom .content{

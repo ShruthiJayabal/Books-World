@@ -553,7 +553,7 @@ body {
     .bottom{
         display:grid;
         grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-        margin-top:1500px ;
+        margin-top:1560px ;
     }
     
     
