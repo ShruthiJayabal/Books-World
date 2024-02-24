@@ -994,6 +994,7 @@ details{
     
     .text-box .description{
         font-size:15px;
+        text-align: justify;
     }
 
     
