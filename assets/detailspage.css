@@ -881,7 +881,7 @@ details{
 
     .description{
         text-align: justify;
-        font-size:16px;
+        font-size:15px;
     }
     
     details{
@@ -1420,7 +1420,7 @@ details{
     .bottom{
         display:grid;
         grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-        margin-top: 160px;
+        margin-top: 200px;
     }
     
     .bottom .content{
