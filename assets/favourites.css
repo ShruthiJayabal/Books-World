@@ -523,6 +523,7 @@ body {
         .bottom{
             display:grid;
             grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+            margin-top: 1400px;
         }
         
         .bottom .content .block h3{
@@ -546,7 +547,7 @@ body {
         }
         
         .bottom .block{
-            width: 320px;
+            width: 300px;
             height:340px;
             background:black;
             border-color:#000000;
@@ -555,7 +556,7 @@ body {
             border-radius: 5px;
             padding: 10px;
             margin-bottom: 40px;
-            margin-left: 50px;
+            
             
         
         }
@@ -591,7 +592,7 @@ body {
         
         body {
             background-color:whitesmoke;
-            width:1828px;
+            width:1400px;
         }
         
         
