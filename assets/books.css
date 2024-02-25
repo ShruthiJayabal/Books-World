@@ -217,7 +217,7 @@ li a:hover {
 
 .container{
     text-align: center;
-    display:grid;
+    display:flex;
     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
 }
 
@@ -910,10 +910,82 @@ h1{
 
 
 @media only screen and (max-width:600px){
+    @import "https://unpkg.com/open-props";
+    @import "https://unpkg.com/open-props/normalize.min.css";
     
+    .media-scroller {
+      --_spacer: var(--size-9);
+      display: grid;
+      gap: var(--_spacer);
+      grid-auto-flow: column;
+      grid-auto-columns: 21%;
+    
+      padding: 0 var(--_spacer) var(--_spacer);
+    
+      overflow-x: auto;
+      margin-left: 75px;
+      margin-right: 10px;
+      margin-top: 30px;
+      overscroll-behavior-inline: contain;
+      gap:50px;
+    }
+    
+    .media-scroller--with-groups {
+      grid-auto-columns: 80%;
+    }
+    
+  
+    
+    .media-element {
+      display: grid;
+      grid-template-rows: min-content;
+      gap: var(--_spacer);
+      padding: var(--_spacer);
+      background: var(--surface-1);
+      border-radius: var(--radius-2);
+      box-shadow: var(--shadow-1);
+      margin-left:70px;
+    }
+    
+
+
+    .media-element > img {
+      inline-size: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      width: 200px;
+      height: 400px;
+      object-fit:cover;
+    }
+    
+    .snaps-inline {
+      scroll-snap-type: inline mandatory;
+      scroll-padding-inline: var(--_spacer, 1rem);
+    }
+    
+    .snaps-inline > * {
+      scroll-snap-align: start;
+    }
+    
+    /* general styling */
+    
+
+    .section-title {
+      padding-inline-start: var(--size-6);
+      margin-block: var(--size-9) var(--size-3);
+      text-align: center;
+      font-size: 35px;
+    }
+
+
+
+
+
+
+
 body{
     background: whitesmoke;
-    width: 1400px;
+    width:1400px;
 }
 
 
@@ -1113,17 +1185,17 @@ li a:hover {
     background-color: white;
 }
 
-.container{
-    text-align: center;
-    display:flex;
-    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+.media-scroller{
+    display:grid;
+    overflow-x: auto;
+
 }
 
 
 
-.container .card{
-    width: 370px;
-    height:440px;
+.media-scroller .media-element{
+    width: 300px;
+    height:570px;
     background:whitesmoke;
     border-radius: 5px;
     padding: 0px;
@@ -1136,16 +1208,17 @@ li a:hover {
 }
 
 
-.container .card:hover{
-    border:1.5px solid black;
+.media-scroller .media-element:hover{
+    border:2px solid black;
 }
 
 
 
 
-.card .panel{
+.media-element .panel{
     position: absolute;
-    top:1px;
+    top:0px;
+    margin-bottom: 5px;
     right: 10px;
     width: 30px;
     height: 50px;
@@ -1156,14 +1229,14 @@ li a:hover {
     opacity:0;
 }
 
-.card:hover .panel{
+.media-element:hover .panel{
     right: 10px;
     opacity:1;
 }
 
 .panel a{
     font-size: 20px;
-    margin: 15px 0; 
+    margin: 10px 0; 
     
 }
 
@@ -1175,11 +1248,11 @@ li a:hover {
 
 
 
-.card .cart{
+.media-element  .cart{
     font-size: 13px;
-    top:380px;
-    left:80px;
-    width:130px;
+    top:520px;
+    left:150px;
+    width:170px;
     height: 40px;
     border-radius:6px;
     font-weight: 500;
@@ -1188,7 +1261,7 @@ li a:hover {
 }
 
 
-.card .cart:hover{
+.media-element  .cart:hover{
     color:white;
     background:#FE4239;
 
@@ -1196,33 +1269,35 @@ li a:hover {
 }
 
 
-.container .card .image{
-    width: 140px;
+.media-scroller .media-element  .image{
+    width: 240px;
     margin-top: 45px;
-    height: 220px;
+    margin-left: 29px;
+    height: 350px;
     object-fit:cover;
     
 }
 
 
-.card .info{
+.media-element  .info{
     text-align: center;
     line-height: 10px;
+    margin-left: 2px;
 }
 
-.card .info h4{
+.media-element  .info h4{
     color:black;
     line-height: 20px;
     font-weight: 500;
 }
 
-.card .info .stars i{
+.media-element  .info .stars i{
     color: gold;
     font-size:smaller ;
     padding: 10px 0;
 }
 
-.card .info .price{
+.media-element  .info .price{
     font-size: 15px;
     color: #f00333;
     letter-spacing: 1px;
@@ -1233,7 +1308,7 @@ li a:hover {
 
 
 
-.card button{
+.media-element  button{
     position: absolute;
     font-weight: bold;
     top: 260px;
@@ -1251,12 +1326,12 @@ li a:hover {
     transition-delay: .2s;
 }
 
-.card:hover button{
+.media-element :hover button{
     opacity:1;
     
 }
 
-.card button:hover{
+.media-element  button:hover{
     background: rgba(225,0,0,0.6);
 }
 
