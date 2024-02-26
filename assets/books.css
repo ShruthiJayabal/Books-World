@@ -446,19 +446,82 @@ h1{
 
 
 @media only screen and (max-width:1200px){
+    @import "https://unpkg.com/open-props";
+    @import "https://unpkg.com/open-props/normalize.min.css";
     
-body{
-    background: #eee;
-    overflow-x: hidden; 
-    width:1920px;
-}
+    .media-scroller {
+      --_spacer: var(--size-10);
+      display: grid;
+      gap: var(--_spacer);
+      grid-auto-flow: column;
+      grid-auto-columns: 11%;
+    
+      padding: 0 var(--_spacer) var(--_spacer);
+    
+      overflow-x: auto;
+      margin-left: 5px;
+      margin-right: 5px;
+      margin-top: 30px;
+      overscroll-behavior-inline: contain;
+      gap:45px;
+    }
+    
+    .media-scroller--with-groups {
+      grid-auto-columns: 80%;
+    }
+    
+  
+    
+    .media-element {
+      display: grid;
+      grid-template-rows: min-content;
+      gap: var(--_spacer);
+      padding: var(--_spacer);
+      background: var(--surface-1);
+      border-radius: var(--radius-2);
+      box-shadow: var(--shadow-1);
+      margin-left:70px;
+    }
+    
 
-.main .main_img img{
-    width:990px;
-    position:relative;
-    top:40px;
+
+    .media-element > img {
+      inline-size: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      width: 200px;
+      height: 400px;
+      object-fit:cover;
+    }
     
-    margin-left:180px;
+    .snaps-inline {
+      scroll-snap-type: inline mandatory;
+      scroll-padding-inline: var(--_spacer, 1rem);
+    }
+    
+    .snaps-inline > * {
+      scroll-snap-align: start;
+    }
+    
+    /* general styling */
+    
+
+    .section-title {
+      padding-inline-start: var(--size-6);
+      margin-block: var(--size-9) var(--size-3);
+      text-align: center;
+      font-size: 30px;
+    }
+
+
+
+
+
+
+
+body{
+    background: whitesmoke;
+    width:1828px;
 }
 
 
@@ -510,7 +573,7 @@ body{
 
 .header .header-1 .icons div,
 .header .header-1 .icons a{
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     margin: auto;
     color: var(--black);
     cursor: pointer;
@@ -527,16 +590,16 @@ body{
     color:#FE4239;
 }
 
+
 .header .header-1 img{
-    width:99px;
+    width:95px;
     height:70px;
 }
-
 
 ul {
     list-style-type: none;
     width:1920px;
-    height:65px;
+    height: 65px;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -560,7 +623,7 @@ li a {
 }
   
 li a:hover {
-    background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+    background-color:#FE4239;
     display:inline-block;
     padding: 20px 25px;
 }
@@ -579,15 +642,18 @@ li a:hover {
 .btn{
     width:85px;
     height:40px;
-    background-image:linear-gradient(-180deg, #FF7E31, #E62C03);
+    background: #FE4239;
+    border: 2px solid #FE4239;
     border-radius: 6px;
     margin-top:15px;
     color:#fff;
-    font-size:15px;
+    font-size:16px;
 }
 
 .btn:hover{
-    box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+    background-color: white;
+    display:inline-block;
+    color: #FE4239;
 }
 
 
@@ -603,7 +669,7 @@ li a:hover {
     width:850px;
     position:relative;
     top:35px;
-    left:300px;
+    left:530px;
 }
 
 
@@ -612,12 +678,10 @@ li a:hover {
     color: black;
     border: 2px solid black;
     padding: 10px;
-    width:90px;
-    height: 40px;
+    width:110px;
+    height: 50px;
     font-size: 16px;
     cursor: pointer;
-    margin-right: 40px;
-    
 }
 
 .dropbtn:hover{
@@ -663,38 +727,40 @@ li a:hover {
     background-color: white;
 }
 
-.container{
-    text-align: center;
+.media-scroller{
     display:grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    overflow-x: auto;
+
 }
 
 
 
-
-.container .card{
-    width: 220px;
-    height:470px;
-    background:#eee;
+.media-scroller .media-element{
+    width: 240px;
+    height:530px;
+    background:whitesmoke;
     border-radius: 5px;
     padding: 0px;
     overflow: hidden;
     position: relative;
-    margin-left: 5px;
     line-height :0.5em;
-    margin-right: 10px;
+    margin-right: 3px;
+    margin-left: 12px;
+   
 }
 
 
-.container .card:hover{
-    border:1.5px solid black;
+.media-scroller .media-element:hover{
+    border:2px solid black;
 }
 
 
 
-.card .panel{
+
+.media-element .panel{
     position: absolute;
-    top:1px;
+    top:0px;
+    margin-bottom: 5px;
     right: 10px;
     width: 30px;
     height: 50px;
@@ -705,74 +771,76 @@ li a:hover {
     opacity:0;
 }
 
-.card:hover .panel{
+.media-element:hover .panel{
     right: 10px;
     opacity:1;
 }
 
 .panel a{
     font-size: 20px;
-    margin: 15px 0; 
+    margin: 10px 0; 
     
 }
 
 .panel a:hover{
-    box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+    color:red;
 }
 
 
 
 
 
-.card .cart{
+.media-element  .cart{
     font-size: 13px;
-    top:410px;
-    left:110px;
-    width:130px;
+    top:470px;
+    left:120px;
+    width:170px;
     height: 40px;
     border-radius:6px;
     font-weight: 500;
     color:white;
-    background-image:linear-gradient(-180deg, #FF7E31, #E62C03);
+    background: #FE4239;
 }
 
 
-.card .cart:hover{
+.media-element  .cart:hover{
     color:white;
-    background-image:linear-gradient(-180deg, #FF7E31, #E62C03);
+    background:#FE4239;
 
 
 }
 
 
-.container .card .image{
-    width: 180px;
+.media-scroller .media-element  .image{
+    width: 200px;
     margin-top: 45px;
-    height: 260px;
+    margin-left: 18px;
+    height: 320px;
     object-fit:cover;
     
 }
 
 
-.card .info{
+.media-element  .info{
     text-align: center;
     line-height: 10px;
+    margin-left: 2px;
+    margin-right: 8px;
 }
 
-.card .info h4{
+.media-element  .info h4{
     color:black;
     line-height: 20px;
     font-weight: 500;
-    text-align: center;
 }
 
-.card .info .stars i{
+.media-element  .info .stars i{
     color: gold;
     font-size:smaller ;
     padding: 10px 0;
 }
 
-.card .info .price{
+.media-element  .info .price{
     font-size: 15px;
     color: #f00333;
     letter-spacing: 1px;
@@ -783,7 +851,7 @@ li a:hover {
 
 
 
-.card button{
+.media-element  button{
     position: absolute;
     font-weight: bold;
     top: 260px;
@@ -801,12 +869,12 @@ li a:hover {
     transition-delay: .2s;
 }
 
-.card:hover button{
+.media-element :hover button{
     opacity:1;
     
 }
 
-.card button:hover{
+.media-element  button:hover{
     background: rgba(225,0,0,0.6);
 }
 
@@ -820,6 +888,7 @@ li a:hover {
     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
 }
 
+
 .bottom .content .block h3{
     font-size:30px;
 }
@@ -830,7 +899,7 @@ li a:hover {
 
 
 .bottom .content{
-    width: 640px;
+    width: 700px;
     height:400px;
     background:black;
     border-color:#000000;
@@ -848,14 +917,15 @@ li a:hover {
     border-color:#000000;
     color: #eee;
     font-family:'Times New Roman', Times, serif;
+    /*box-shadow: 10px 10px lightgray;*/
     border-radius: 5px;
-    padding: 15px;
+    padding: 10px;
     margin-bottom: 40px;
     line-height: 23px;
+    margin-bottom: 40px;
     margin-left: 50px;
     margin-right: 40px;
     margin-top: 20px;
-   
 }
 
 
@@ -866,10 +936,6 @@ li a:hover {
 
 .facebook-icon{
     font-size: 50px;
-}
-
-.terms{
-    font-size: 20px;
 }
 
 h1{
@@ -894,9 +960,14 @@ h1{
     color: white;
 }
 
- 
 
+ 
+.terms{
+    font-size: 20px;
 }
+    
+}
+
 
 
 
@@ -1132,7 +1203,7 @@ li a:hover {
     width:850px;
     position:relative;
     top:35px;
-    left:150px;
+    left:325px;
 }
 
 
@@ -1653,7 +1724,7 @@ li a:hover {
     width:850px;
     position:relative;
     top:35px;
-    left:150px;
+    left:325px;
 }
 
 
