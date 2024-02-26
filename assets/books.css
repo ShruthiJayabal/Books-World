@@ -81,7 +81,7 @@
   margin-block: var(--size-9) var(--size-3);
   text-align: center;
   font-size: 25px;
-  margin-left: 550px;
+  
 }
 
 
@@ -228,7 +228,6 @@ margin: 50px 0;
 color:black;
 font-weight:550;
 font-size:25px;
-margin-left: 600px;
 }
 
 .main .main_img img{
@@ -532,7 +531,7 @@ color: white;
 .terms{
     font-size: 15px;
     text-align: center;
-    margin-left: 450px;
+ 
 }
 
 
