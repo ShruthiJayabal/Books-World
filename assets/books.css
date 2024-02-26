@@ -919,7 +919,7 @@ h1{
     @import "https://unpkg.com/open-props/normalize.min.css";
     
     .media-scroller {
-      --_spacer: var(--size-9);
+      --_spacer: var(--size-10);
       display: grid;
       gap: var(--_spacer);
       grid-auto-flow: column;
@@ -928,11 +928,11 @@ h1{
       padding: 0 var(--_spacer) var(--_spacer);
     
       overflow-x: auto;
-      margin-left: 20px;
-      margin-right: 10px;
+      margin-left: 5px;
+      margin-right: 5px;
       margin-top: 30px;
       overscroll-behavior-inline: contain;
-      gap:50px;
+      gap:45px;
     }
     
     .media-scroller--with-groups {
@@ -1042,7 +1042,7 @@ body{
 
 .header .header-1 .icons div,
 .header .header-1 .icons a{
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin: auto;
     color: var(--black);
     cursor: pointer;
@@ -1062,7 +1062,7 @@ body{
 ul {
     list-style-type: none;
     width:1500px;
-    height: 70px;
+    height: 60px;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -1078,17 +1078,17 @@ li {
 
 li a {
     display: block;
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     text-align: center;
-    padding: 15px 20px;
+    padding: 15px 15px;
     text-decoration: none;
 }
   
 li a:hover {
     background-color:#FE4239;
     display:inline-block;
-    padding: 18px 20px;
+    padding: 15px 15px;
 }
 
 
@@ -1199,16 +1199,16 @@ li a:hover {
 
 
 .media-scroller .media-element{
-    width: 240px;
-    height:500px;
+    width: 190px;
+    height:480px;
     background:whitesmoke;
     border-radius: 5px;
     padding: 0px;
     overflow: hidden;
     position: relative;
-    margin-left: 25px;
     line-height :0.5em;
-    margin-right: 10px;
+    margin-right: 3px;
+    margin-left: 12px;
    
 }
 
@@ -1255,8 +1255,8 @@ li a:hover {
 
 .media-element  .cart{
     font-size: 13px;
-    top:20px;
-    left:150px;
+    top:425px;
+    left:93px;
     width:170px;
     height: 40px;
     border-radius:6px;
@@ -1275,10 +1275,10 @@ li a:hover {
 
 
 .media-scroller .media-element  .image{
-    width: 200px;
+    width: 165px;
     margin-top: 45px;
     margin-left: 10px;
-    height: 300px;
+    height: 250px;
     object-fit:cover;
     
 }
@@ -1351,8 +1351,18 @@ li a:hover {
     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
 }
 
+
+.bottom .content .block h3{
+    font-size:30px;
+}
+.content .block .company{
+    font-size:20px;
+    line-height: 30px;
+}
+
+
 .bottom .content{
-    width: 565px;
+    width: 560px;
     height:400px;
     background:black;
     border-color:#000000;
@@ -1371,8 +1381,8 @@ li a:hover {
     font-family:'Times New Roman', Times, serif;
     /*box-shadow: 10px 10px lightgray;*/
     border-radius: 5px;
-    padding: 15px;
-    margin-bottom: 20px;
+    padding: 10px;
+    margin-bottom: 40px;
     line-height: 23px;
 }
 
