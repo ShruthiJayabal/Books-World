@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,400;1,900&dispaly=swap");
 
 
-@import "https://unpkg.com/open-props";
-@import "https://unpkg.com/open-props/normalize.min.css";
+
 
 *{
     font-family: 'Poppins', sans-serif;
@@ -304,7 +303,7 @@ overflow-x: auto;
 
 .media-scroller .media-element{
 width: 185px;
-height:480px;
+height:475px;
 background:whitesmoke;
 border-radius: 5px;
 padding: 0px;
@@ -359,9 +358,9 @@ color:red;
 
 .media-element  .cart{
 font-size: 13px;
-top:430px;
+top:420px;
 left:91px;
-width:170px;
+width:160px;
 height: 40px;
 border-radius:6px;
 font-weight: 500;
